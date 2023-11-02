@@ -21,22 +21,21 @@ const navList = [
 
 <template>
   <nav>
-    <ul class="nav_list">
+    <ul :class="styles.list">
       <li v-for="navItem in navList" :key="navItem.label">
-        <router-link to="/" class="nav_list_link">{{ navItem.label }}</router-link>
+        <router-link to="/" :class="styles.link">{{ navItem.label }}</router-link>
       </li>
     </ul>
   </nav>
 </template>
 
-<style scoped>
-.nav_list {
+<style module="styles">
+.list {
   display: flex;
   flex-direction: column;
   gap: 16px;
 }
-
-.nav_list_link {
+.link {
   display: block;
   width: 100%;
   padding: 4px 8px;

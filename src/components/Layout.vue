@@ -4,21 +4,21 @@ import Nav from '@/components/Nav.vue';
 </script>
 
 <template>
-  <div class="layout_root">
-    <div class="header">
+  <div :class="styles.root">
+    <div :class="styles.header">
       <Header />
     </div>
-    <div class="nav">
+    <div :class="styles.nav">
       <Nav />
     </div>
-    <main class="main">
+    <main :class="styles.main">
       <slot />
     </main>
   </div>
 </template>
 
-<style scoped>
-.layout_root {
+<style module="styles">
+.root {
   display: grid;
   grid-template-areas: 'header header' 'nav main';
   grid-template-rows: minmax(50px, auto) 1fr;
