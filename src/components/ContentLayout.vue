@@ -19,7 +19,7 @@ defineProps<{ title: string }>();
   display: flex;
   flex-direction: column;
   gap: 16px;
-  height: 100%;
+  min-height: 100%;
 }
 .title {
   font-size: 2rem;
@@ -30,7 +30,7 @@ defineProps<{ title: string }>();
   display: grid;
   grid-template-columns: calc(50% - var(--gap) / 2) calc(50% - var(--gap) / 2);
   gap: var(--gap);
-  height: 100%;
+  flex-grow: 1;
 }
 .body::after {
   position: absolute;
