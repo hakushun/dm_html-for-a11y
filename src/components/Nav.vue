@@ -2,7 +2,7 @@
 const navList = [
   {
     to: '/',
-    label: 'HOME',
+    label: '<h1> ~ <h6>',
   },
   {
     to: '/',
