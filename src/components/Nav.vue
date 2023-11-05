@@ -13,8 +13,9 @@ const navList = [
     label: '<button>',
   },
   {
-    to: '/',
-    label: 'PAGE3',
+    to: '/list',
+    label: '<ul>, <ol>, <dl>',
+  },
   {
     to: '/references',
     label: 'References',
