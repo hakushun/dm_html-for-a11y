@@ -5,8 +5,8 @@ const navList = [
     label: '<h1> ~ <h6>',
   },
   {
-    to: '/',
-    label: 'PAGE1',
+    to: '/anchor',
+    label: '<a>',
   },
   {
     to: '/',
