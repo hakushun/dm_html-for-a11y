@@ -53,9 +53,9 @@
 }
 .h2,
 .h3 {
-  margin-top: 8px;
+  margin-block-start: 8px;
 }
 .p {
-  margin-top: 4px;
+  margin-block-start: 4px;
 }
 </style>

@@ -73,12 +73,12 @@ const references = {
 
 <style module="styles">
 .category {
-  margin-top: 16px;
+  margin-block-start: 16px;
 }
 .list {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  margin-top: 8px;
+  margin-block-start: 8px;
 }
 </style>
