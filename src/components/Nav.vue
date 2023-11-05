@@ -15,6 +15,9 @@ const navList = [
   {
     to: '/',
     label: 'PAGE3',
+  {
+    to: '/references',
+    label: 'References',
   },
 ];
 </script>
@@ -23,7 +26,7 @@ const navList = [
   <nav>
     <ul :class="styles.list">
       <li v-for="navItem in navList" :key="navItem.label">
-        <router-link to="/" :class="styles.link">{{ navItem.label }}</router-link>
+        <router-link :to="navItem.to" :class="styles.link">{{ navItem.label }}</router-link>
       </li>
     </ul>
   </nav>
