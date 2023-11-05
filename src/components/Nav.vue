@@ -9,8 +9,8 @@ const navList = [
     label: '<a>',
   },
   {
-    to: '/',
-    label: 'PAGE2',
+    to: '/button',
+    label: '<button>',
   },
   {
     to: '/',
