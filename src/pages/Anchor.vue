@@ -10,4 +10,3 @@ import ContentLayout from '@/components/ContentLayout.vue';
     <Good />
   </ContentLayout>
 </template>
-∂∂∂

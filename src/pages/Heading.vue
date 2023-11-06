@@ -10,5 +10,3 @@ import Good from '@/components/Heading/Good.vue';
     <Good />
   </ContentLayout>
 </template>
-
-<style module="styles"></style>

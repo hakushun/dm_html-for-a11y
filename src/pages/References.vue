@@ -5,5 +5,3 @@ import References from '@/components/References.vue';
 <template>
   <References />
 </template>
-
-<style module="styles"></style>
