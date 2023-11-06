@@ -6,6 +6,8 @@
   --secondary-color: #eadbc8;
   --ternary-color: #dac0a3;
   --accent-color: #102c57;
+
+  --anchor-link-color: #0043f3;
 }
 
 html,
@@ -35,7 +37,7 @@ body {
 }
 
 a {
-  color: #0070f3;
+  color: var(--anchor-link-color);
   text-decoration: none;
 }
 

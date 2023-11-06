@@ -43,6 +43,7 @@ const navList = [
   display: block;
   width: 100%;
   padding: 4px 8px;
+  color: var(--black);
   font-size: 18px;
   text-align: center;
 }
