@@ -17,6 +17,10 @@ const navList = [
     label: '<ul>, <ol>, <dl>',
   },
   {
+    to: '/fieldset',
+    label: '<fieldset>',
+  },
+  {
     to: '/references',
     label: 'References',
   },

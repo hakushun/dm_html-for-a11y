@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router';
 import Anchor from '@/pages/Anchor.vue';
 import Button from '@/pages/Button.vue';
+import Fieldset from '@/pages/Fieldset.vue';
 import Heading from '@/pages/Heading.vue';
 import List from '@/pages/List.vue';
 import References from '@/pages/References.vue';
@@ -10,6 +11,7 @@ const routes = [
   { path: '/anchor', name: 'anchor', component: Anchor },
   { path: '/button', name: 'button', component: Button },
   { path: '/list', name: 'list', component: List },
+  { path: '/fieldset', name: 'fieldset', component: Fieldset },
   { path: '/references', name: 'references', component: References },
 ];
 
