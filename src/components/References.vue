@@ -32,6 +32,10 @@ const references = {
       href: 'https://www.amazon.co.jp/dp/4297133660',
     },
     {
+      label: 'Form Design Patterns ―シンプルでインクルーシブなフォーム制作実践ガイド',
+      href: 'https://www.amazon.co.jp/dp/4862464513',
+    },
+    {
       label: 'コーディングWebアクセシビリティ',
       href: 'https://www.amazon.co.jp/dp/4862462669',
     },
