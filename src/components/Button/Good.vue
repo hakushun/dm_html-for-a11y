@@ -6,7 +6,7 @@ function onClick() {
 
 <template>
   <section :class="styles.root">
-    <button :class="styles.button" @click="onClick">Click me!</button>
+    <button type="button" :class="styles.button" @click="onClick">Click me!</button>
   </section>
 </template>
 

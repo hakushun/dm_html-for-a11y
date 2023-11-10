@@ -10,7 +10,7 @@ function onClick() {
 
 <template>
   <section :class="styles.root">
-    <button :class="styles.button" @click="onClick">トップページへ</button>
+    <button type="button" :class="styles.button" @click="onClick">トップページへ</button>
   </section>
 </template>
 
