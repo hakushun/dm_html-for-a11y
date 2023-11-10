@@ -49,3 +49,7 @@ img {
   max-width: 100%;
   display: block;
 }
+
+:where(:focus-visible) {
+  outline-color: var(--accent-color);
+}
