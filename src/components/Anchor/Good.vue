@@ -1,6 +1,6 @@
 <template>
   <section :class="styles.root">
-    <router-link to="/" :class="styles.button">トップページへ</router-link>
+    <router-link to="/" :class="styles.link">トップページへ</router-link>
   </section>
 </template>
 
@@ -9,7 +9,7 @@
   display: grid;
   place-items: center;
 }
-.button {
+.link {
   display: block;
   padding: 4px 8px;
   font-weight: bold;
@@ -20,12 +20,12 @@
   box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5);
   transition: all 0.3s;
 }
-.button:hover {
+.link:hover {
   color: var(--accent-color);
   text-decoration: none;
   background-color: var(--white);
 }
-.button:active {
+.link:active {
   box-shadow: none;
   transform: translateY(3px);
 }
